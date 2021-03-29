@@ -8,11 +8,11 @@ const publicKey = fs.readFileSync('./test_keys/public.pem', {encoding:'utf8', fl
 const jwsCertificate = new JWSCertificate();
 
 const main = async () => {
-    var signature = await jwsCertificate.sign(privateKey, jsonToEncode);
-    console.log(signature);
-    var obj = await jwsCertificate.verify(publicKey, signature);
-    console.log(obj.payload);
-    console.log(obj.verified);
+  var signature = await jwsCertificate.sign(privateKey, jsonToEncode);
+  console.log(signature);
+  var obj = await jwsCertificate.verify(publicKey, signature);
+  console.log(obj.payload);
+  console.log(obj.verified);
 }
 
 main();
