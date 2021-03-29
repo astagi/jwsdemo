@@ -1,0 +1,22 @@
+{
+  "name": "cie-nis-python-sdk",
+  "version": "1.0.0",
+  "description": "Libreria leggera e portabile in Python per l'estrazione delle informazioni contenute nella CIE 3.0, con e senza autenticazione EAC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/italia/cie-nis-python-sdk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/italia/cie-nis-python-sdk/issues"
+  },
+  "homepage": "https://github.com/italia/cie-nis-python-sdk#readme",
+  "dependencies": {
+    "jws": "^4.0.0"
+  }
+}

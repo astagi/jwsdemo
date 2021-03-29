@@ -1,0 +1,26 @@
+{
+    "person": {
+        "name": {
+            "family": "Musterfrau",
+            "given": "Gabi"
+        },
+        "birthDate": "1999-04-20",
+        "gender": "female",
+        "identifier": {
+            "system": "some URI e.g. defining citizen ID",
+            "value": "c228f2ff"
+        }
+    },
+    "pastInfection": {
+        "disease": "U07.1",
+        "dateFirstPositiveTest": "2020-12-20",
+        "countryOfTest": "AT"
+    },
+    "certificateMetadata": {
+        "issuer": "BMGSPK, Vienna, Austria",
+        "identifier": "01ATBA712FE030C797287CB97334452966470042",
+        "validFrom": "2021-01-20",
+        "validUntil": "2021-07-20",
+        "schemaVersion": "1.0.0"
+    }
+}
